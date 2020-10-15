@@ -99,19 +99,19 @@ form>div{
 
 }
 
-		label {
-			width: 10px;
-			height: 10px;
-			display: inline-block;
-			line-height: 50px;
-			position: relative;
-			text-align: center;
-			border: 1px solid white;
-			border-radius: 5px;
-			background: rgb(40,41,35);
-			margin:0 5px;
-		}
-		/* 被选中时label背景 */
-		input:checked+label{
-			background:rgb(222,225,230);
-		}
+label {
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	line-height: 50px;
+	position: relative;
+	text-align: center;
+	border: 1px solid white;
+	border-radius: 5px;
+	background: rgb(40,41,35);
+	margin:0 5px;
+}
+/* 被选中时label背景 */
+input:checked+label{
+	background:rgb(222,225,230);
+}

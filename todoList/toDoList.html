@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ToDoList</title>
+	<link rel="stylesheet" type="text/css" href="toDoList.css">
+	
+</head>
+<body>
+	<div id="head">	
+		<form onsubmit="return false">
+			<div id="before_head">
+				<p>ToDoList</p>
+			</div>
+			<div>
+				<input type="text" name="addToDo" placeholder="添加ToDo" id="text">
+			</div>
+			<div>
+				<button class="submit" type="button" id="submit">添加</button>
+			</div>
+		</form>
+	</div>
+	<div id="mid">
+		<div id="doing">
+		</div>
+		<div id="done">
+		</div>
+	</div>
+</body>
+	<script type="text/javascript" src="toDoList.js"></script>
+</html>

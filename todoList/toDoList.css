@@ -1,0 +1,117 @@
+*{
+	text-decoration: none;
+	font-style: "微软雅黑";
+	margin:0px;
+}
+body{
+	background-color: rgb(40,41,35);
+}
+
+#head{
+	width: 100%;
+	height: 50px;
+	background-color: black;	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+#before_head>p{
+	font-family: inherit;
+}
+#head>form{
+	margin-bottom: 0px;
+	width: 700px;
+	height: 40px;
+
+	display: flex;
+	align-items: center;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: center;	
+}
+form>div{
+	display: flex;
+	
+}
+#before_head{
+	font-size: 20px;
+	color:white;
+	width: 100px;	
+}
+#text{
+	margin-left:0px;
+	width: 300px;
+	height: 30px;
+	border-radius: 5px;
+}
+#submit{
+	background-color: white;
+	width: 80px;
+	height: 35px;
+	border-radius: 5px;
+	margin:0 10px;
+}
+#mid{
+
+	display: flex;
+	justify-content: center;
+}
+
+#mid>div{
+	background-color: rgb(40,41,35);
+	width: 48%;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	margin:0 5px;
+}
+
+
+.temp{
+	width: 100%;
+	height: 40px;
+	background-color: rgb(40,41,35);
+	border:white 0.1px dashed;
+
+	margin: 1px 0; 
+	display: flex;
+	text-align: left;
+	align-items: center;
+
+}
+
+.temp>input{
+	display: none;
+}
+
+.del{
+	height: 20px;
+	width: 20px;
+	margin-left: auto;
+}
+.content{
+	width: 550px;
+}
+.title{
+	font-size:25px;
+
+}
+
+		label {
+			width: 10px;
+			height: 10px;
+			display: inline-block;
+			line-height: 50px;
+			position: relative;
+			text-align: center;
+			border: 1px solid white;
+			border-radius: 5px;
+			background: rgb(40,41,35);
+			margin:0 5px;
+		}
+		/* 被选中时label背景 */
+		input:checked+label{
+			background:rgb(222,225,230);
+		}
